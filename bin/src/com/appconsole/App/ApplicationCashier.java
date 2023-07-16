@@ -5,67 +5,33 @@ public class ApplicationCashier {
 
         // create Object from Class
 
-
         // Identity Class
-        System.out.println("==============================");
+        int repeatCount = 40;
+        String samaDengan = "=".repeat(repeatCount);
+        System.out.println(samaDengan);
         System.out.println("\n");
 
         IdentityUser appUserIdentity = new IdentityUser();
         appUserIdentity.getIdentityUser(); // this line, will call the method
 
-        int repeatCount = 7;
-        String line = "\n".repeat(repeatCount);
+        int repeatCountTwo = 2;
+        String line = "\n".repeat(repeatCountTwo);
         System.out.println(line);
-
 
         // NamaBarang Class
         NamaBarang listBarang = new NamaBarang();
         listBarang.Menu();
+        listBarang.seleksiMenu();
 
-        int repeatCountTwo = 30;
-        String samaDengan = "=".repeat(repeatCountTwo);
         System.out.println(samaDengan);
-
-        listBarang.listBarang();
-
         System.out.println(line);
 
         // HargaBarang Class
-
         HargaBarang hargaBarang = new HargaBarang();
-        hargaBarang.listHarga();
-        hargaBarang.seleksi();
+        hargaBarang.beliBarang();
+
 
     }
 
 
 }
-
-// NEXT:
-
-//
-//    private void namaBarang() {
-//
-//    }
-
-//
-//    private void hargaBarang() {
-//
-//    }
-
-//    private void jumlahBarang() {
-//
-//    }
-
-//    private void diskon() {
-//
-//    }
-
-//    private void totalHarga() {
-//
-//    }
-
-//    private void totalBayar() {
-//
-//    }
-//

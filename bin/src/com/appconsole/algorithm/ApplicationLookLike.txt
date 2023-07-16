@@ -1,1 +1,0 @@
-Buatlah program kasir untuk menghitung total bayar dengan input data nama barang, harga barang, dan jumlah barang.Total harga adalah harga barang dikalikan dumlah.Diskon adalah 10% dari total harga.Total bayar adalah total harga dikurangi diskon.
